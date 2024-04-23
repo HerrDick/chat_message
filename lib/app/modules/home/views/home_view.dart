@@ -17,6 +17,7 @@ class HomeView extends GetView<HomeController> {
           width: 350,
           child: TextField(
             controller: controller.textController,
+            onSubmitted: (value) => controller.signIn(),
             decoration: InputDecoration(labelText: 'nickname'),
           ),
         )
