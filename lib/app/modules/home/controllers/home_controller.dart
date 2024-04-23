@@ -4,5 +4,7 @@ import 'package:get/get.dart';
 class HomeController extends GetxController {
   final textController=TextEditingController();
 
-  void signIn(){}
+  void signIn(){
+    String username = textController.text;
+  }
 }
