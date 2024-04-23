@@ -16,6 +16,7 @@ class HomeView extends GetView<HomeController> {
         child: Container(
           width: 350,
           child: TextField(
+            controller: controller.textController,
             decoration: InputDecoration(labelText: 'nickname'),
           ),
         )
