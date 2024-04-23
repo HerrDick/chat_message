@@ -6,7 +6,7 @@ import '../modules/home/views/home_view.dart';
 part 'app_routes.dart';
 
 class AppPages {
-  static final routes = [
+  static final pages = [
     GetPage(
       name: Routes.HOME,
       page: () => const HomeView(),
